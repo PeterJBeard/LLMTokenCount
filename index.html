@@ -687,25 +687,22 @@
         <div class="header">
             <div class="logo">
                 <div class="logo-icon">T</div>
-                <div class="logo-text">
-                    <h1>LLM Token Count.com</h1>
-                    <p>Professional AI Tokenizer for Frontier Models</p>
-                </div>
-            </div>
-            <div class="header-controls">
-                <div class="view-mode-toggle">
-                    <button id="textModeBtn" class="mode-btn" onclick="setViewMode('text')">
-                        📝 Text Mode
-                    </button>
-                    <button id="aiModeBtn" class="mode-btn active" onclick="setViewMode('ai')">
-                        🤖 AI Mode
-                    </button>
-                </div>
-                <button class="theme-toggle" onclick="toggleTheme()">
-                    <span id="themeIcon">🌙</span> Dark
-                </button>
-            </div>
+                <div class="header">
+    <!-- Logo removed -->
+    <div class="header-controls">
+        <div class="view-mode-toggle">
+            <button id="textModeBtn" class="mode-btn" onclick="setViewMode('text')">
+                📝 Text Mode
+            </button>
+            <button id="aiModeBtn" class="mode-btn active" onclick="setViewMode('ai')">
+                🤖 AI Mode
+            </button>
         </div>
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <span id="themeIcon">🌙</span> Dark
+        </button>
+    </div>
+</div>
         <div class="main-content">
             <div id="textAnalysisSection" class="content-section" style="order: 2;">
                 <div class="text-section">
